@@ -1,0 +1,112 @@
+/* Main container */
+.postdetail-container {
+    max-width: 768px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Title */
+  .postdetail-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+  }
+  
+  /* Post meta info */
+  .postdetail-meta {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  /* Post image */
+  .postdetail-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 1rem 0;
+  }
+  
+  /* Post content */
+  .postdetail-content {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  /* Button group */
+  .postdetail-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .postdetail-button {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+  
+  .upvote-button {
+    background-color: #10b981;
+    color: white;
+  }
+  
+  .edit-button {
+    background-color: #facc15;
+    color: black;
+  }
+  
+  .delete-button {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  /* Comments Section */
+  .postdetail-comments {
+    margin-top: 2rem;
+  }
+  
+  .comment-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .comment-submit-button {
+    margin-top: 0.75rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Individual comments */
+  .comment-item {
+    padding: 0.75rem 0;
+    border-top: 1px solid #eee;
+    font-size: 0.95rem;
+  }
+  
+  .comment-meta {
+    font-size: 0.75rem;
+    color: #888;
+    margin-top: 0.25rem;
+  }
+  

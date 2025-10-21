@@ -1,0 +1,89 @@
+/* Main container for the create post form */
+.create-container {
+    max-width: 768px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Form heading */
+  .create-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Labels */
+  .create-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 1.25rem;
+    color: #333;
+  }
+  
+  /* Input fields */
+  .create-input,
+  .create-select,
+  .create-textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border 0.2s ease;
+  }
+  
+  .create-input:focus,
+  .create-textarea:focus,
+  .create-select:focus {
+    border-color: #3b82f6;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  /* Textarea specific */
+  .create-textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  /* Submit button */
+  .create-button {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Optional: responsive spacing for small screens */
+  @media (max-width: 500px) {
+    .create-container {
+      padding: 1.25rem;
+    }
+  
+    .create-title {
+      font-size: 1.5rem;
+    }
+  
+    .create-button {
+      font-size: 0.95rem;
+    }
+  }
+  

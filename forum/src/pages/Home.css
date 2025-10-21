@@ -1,0 +1,146 @@
+.home-container {
+    min-height: 100vh;
+    padding: 2rem;
+    background: linear-gradient(to right, #1f2937, #4b5563); /* Dark asphalt to metallic gray */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .home-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #f9fafb;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  }
+  
+  .home-controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .home-search, .home-sort {
+    padding: 0.75rem;
+    border-radius: 12px;
+    border: 1px solid #9ca3af;
+    background-color: #f3f4f6;
+    font-size: 1rem;
+    color: #111827;
+    min-width: 250px;
+  }
+  
+  .home-search::placeholder {
+    color: #6b7280;
+  }
+  
+  .home-search:focus, .home-sort:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+  }
+  
+  .post-card {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 650px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+  
+  .post-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  
+  .post-card-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    flex-shrink: 0;
+  }
+  
+  .post-card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  .post-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #1e40af; /* Racing dark blue */
+    margin: 0;
+  }
+  
+  .post-meta, .post-upvotes, .post-date {
+    font-size: 0.95rem;
+    color: #9ca3af; /* Clean readable gray */
+  }
+  
+  /* No posts found section */
+  .no-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    color: #d1d5db;
+    text-align: center;
+  }
+  
+  .no-posts h2 {
+    font-size: 2rem;
+    color: #f1f5f9;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  }
+  
+  .no-posts p {
+    font-size: 1rem;
+    color: #cbd5e1;
+  }
+  
+  .no-posts-gif {
+    width: 250px;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .home-reset-button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.6rem 1.2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-reset-button:hover {
+    background-color: #2563eb;
+  }
+  

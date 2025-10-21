@@ -1,0 +1,176 @@
+/* Reset + base */
+body {
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #1f2937, #4b5563); /* Dark asphalt to steel */
+  margin: 0;
+  padding: 0;
+  color: #e5e7eb;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #60a5fa; /* Racing blue */
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #f87171; /* Speed red */
+}
+
+/* Navbar */
+nav {
+  background: #111827;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  margin: 0 1.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f9fafb;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  color: #374151;
+}
+
+/* Inputs & Forms */
+input, textarea, select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #9ca3af;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  margin-top: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Buttons */
+.bg-blue-500 {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.bg-green-500 {
+  background-color: #10b981;
+  color: white;
+}
+
+.bg-yellow-500 {
+  background-color: #facc15;
+  color: black;
+}
+
+.bg-red-500 {
+  background-color: #ef4444;
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Post Card Styles */
+.post-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.post-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta, .post-upvotes, .post-date {
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+/* Comments */
+.comment-box {
+  border-top: 1px solid #d1d5db;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.comment-box .meta {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+/* Utility */
+hr {
+  border: none;
+  border-top: 1px solid #4b5563;
+  margin: 2rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+/* Custom Badges */
+.post-badge {
+  display: inline-block;
+  background-color: #4ca1af;
+  color: white;
+  padding: 0.3rem 0.7rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+/* Small Animations */
+.fade-in {
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
