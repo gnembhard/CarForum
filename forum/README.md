@@ -1,15 +1,11 @@
-# Web Development Project 8 - Car Forum App  
-**Submitted by: Giovanni Nembhard Z23567778**
 
 This web app: Allows users to create, view, edit, delete, comment on, and upvote posts related to cars. Each post can optionally include an external image, additional text, a topic, a car model, and a random auto-generated username to simulate a real car enthusiast community.
 
-**Time spent:** 18 hours spent in total
 
 ---
 
-## Required Features  
-The following **required** functionality is completed:
-
+## Features  
+Features
 - [x] **The user is able to perform all four CRUD operations**  
   - **Create**: Users can submit a new challenge via a form input.  
   - **Read**: All submitted challenges are displayed on the homepage.  
